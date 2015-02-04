@@ -1,0 +1,206 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+nav
+{
+	margin: 0;
+	padding: 0;
+	background: rgba(30, 30, 30, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+nav ul
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+nav ul li
+{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #00DBFF;
+	display: block;
+	padding: 1.2em;
+}
+header
+{
+	background-image: url("/static/img/header_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 4em;
+	overflow: hidden;
+}
+header figure
+{
+	margin: 0;
+	padding: 0;
+}
+header figure img
+{
+	width: 50%;
+	display: block;
+	max-width: 200px;
+	margin: 3.5em auto 0 auto;
+	border-radius: 50%;
+}
+header figcaption p
+{
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0;
+}
+header figcaption p a
+{
+	text-decoration: none;
+	color: white;
+	padding: 0 1em;
+	font-weight: 700;
+	text-shadow: 5px 2px rgba(0,0,0,0.5);
+}
+header figcaption h1
+{
+	text-align: center;
+	font-weight: 100;
+	color: #f0f0f0;
+	font-size: 3em;
+}
+section
+{
+	margin: 1em 2em;
+}
+section article
+{
+	margin: 1.5em;
+	padding: 0;
+	border-bottom: 1px solid #efefef;
+	border-radius: 3px;
+	border-left: 1px solid #efefef;
+}
+section article h2
+{
+	color: #3C3C3C;
+	margin: .3em 1em;
+	padding: 0;
+}
+#Perfil p
+{
+	margin: 0 1.5em;
+	font-weight: 100;
+}
+#Perfil ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#Perfil ul li
+{
+	display: inline-block;
+	margin: 0;
+	padding: 1.5em 0;
+	width: 33%;
+	text-align: center;
+}
+#Perfil ul li a
+{
+	padding: .5em 1em;
+	text-decoration: none;
+	color: white;
+	background: rgba(181, 187, 195, 1);
+	border-radius: 3px;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+#Perfil ul li a:hover
+{
+	border: 1px solid rgba(158, 163, 169, 1);
+}
+#MiTrabajo figure
+{
+	display: inline-block;
+}
+#MiTrabajo figure img
+{
+	width: 150px;
+}
+#MiTrabajo figure figcaption p
+{
+	text-align: center;
+}
+footer
+{
+	background: rgba(42, 48, 60, 1);
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+footer h3
+{
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em;
+}
+footer p
+{
+	color: white;
+	font-weight: 100;
+	text-align: center;
+}
+form
+{
+	display: block;
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+form input, textarea
+{
+	display: block;
+	width: 100%;
+	margin: 1em;
+	padding: 1em;
+	border: none;
+	outline: none;
+	border: 1px solid transparent;
+}
+form input:focus , textarea:focus
+{
+	border: 1px solid #00DBFF;
+}
+button
+{
+	display: block;
+	width: 100%;
+	margin: .5em 2em;
+	outline: none;
+	border: none;
+	padding: 1em;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+button:hover
+{
+	background: #00DBFF;
+	color: white;
+}
+
+
+
+
+
